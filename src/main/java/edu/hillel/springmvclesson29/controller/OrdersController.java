@@ -17,11 +17,11 @@ import java.util.Objects;
 
 @RestController
 @RequestMapping("/orders")
-public class Orders {
+public class OrdersController {
 
     private final OrderRepository orderRepository;
 
-    public Orders(OrderRepository orderRepository) {
+    public OrdersController(OrderRepository orderRepository) {
         this.orderRepository = orderRepository;
     }
 
